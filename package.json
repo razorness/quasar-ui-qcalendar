@@ -12,5 +12,8 @@
   "scripts": {
     "clean": "rm -rf node_modules yarn.lock ui/node_modules docs/node_modules",
     "build:all": "yarn && cd ./ui && yarn build && cd ../docs && quasar build"
+  },
+  "devDependencies": {
+    "taze": "^0.13.8"
   }
 }
